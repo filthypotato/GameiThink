@@ -25,8 +25,10 @@ The game uses **persistent movement** (not turn-based):
 ## Compilation
 
 ```bash
-g++ -std=c++17 -o game main.cpp GameLoop.cpp GameState.cpp Player.cpp Renderer.cpp
+g++ -std=c++17 -Iinclude -o game src/*.cpp
+
 ```
+Or run build.sh file with files. Its my universal build.sh that works with all projects, its a bit large but thats okay.
 
 ## Running
 

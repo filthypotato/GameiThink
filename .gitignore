@@ -30,6 +30,7 @@ Testing/
 logs/
 core
 core.*
+.cache/
 
 # =========================
 # IDEs / Editors
